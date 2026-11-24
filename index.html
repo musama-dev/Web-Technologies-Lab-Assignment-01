@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annual Computer Science Symposium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="home">
+        <h1>Annual Computer Science Symposium</h1>
+        <p>Department of Computer Science, COMSATS University, Sahiwal Campus</p>
+        <p>Explore Technology, Innovation, and the Future of Computing</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#register">Register</a></li>
+             <li><a href="#ContactUs">ContactUs</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About the Symposium</h2>
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=900&h=400&fit=crop&q=80"
+                 alt="Students sitting in an auditorium and listening to a speaker at a technology symposium">
+            <p>The Annual Computer Science Symposium is a premier event held on <span class="date">12 March 2026</span> at COMSATS University, Sahiwal Campus, where students, teachers, and technology professionals come together to discuss modern trends in computer science.</p>
+            <h3>Why Attend?</h3>
+            <ol>
+                <li>Learn about new technologies.</li>
+                <li>Network with students and professionals.</li>
+                <li>Explore computer science trends.</li>
+            </ol>
+            <aside class="info-box">
+                <h4>Quick Information</h4>
+                <ul>
+                    <li>Entry is free for all students.</li>
+                    <li>Registration closes on 5 March 2026.</li>
+                    <li>Certificates will be given to all participants.</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section id="speakers">
+            <h2>Featured Speakers</h2>
+            <div class="speaker-container">
+                <article class="speaker-card featured">
+                    <span class="keynote">KEYNOTE</span>
+                    <h3>Dr. Ahmed Khan</h3>
+                    <p>AI Expert</p>
+                </article>
+                <article class="speaker-card">
+                    <h3>Ms. Sara Ali</h3>
+                    <p>Software Engineering Researcher</p>
+                </article>
+                <article class="speaker-card">
+                    <h3>Dr. Usman Raza</h3>
+                    <p>Cybersecurity Researcher</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="schedule">
+            <h2>Event Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Session</th>
+                        <th>Speaker</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td>Opening Ceremony</td>
+                        <td>Dr. Ahmed Khan</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 AM</td>
+                        <td>AI Trends</td>
+                        <td>Ms. Sara Ali</td>
+                    </tr>
+                    <tr>
+                        <td>1:30 PM</td>
+                        <td>Cyber Security Basics</td>
+                        <td>Dr. Usman Raza</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM</td>
+                        <td>Coding Competition</td>
+                        <td>Student Council</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="register">
+            <h2>Student Registration</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">University Email:</label>
+                <input type="email" id="email" name="email" placeholder="fa22bcs001@cuisahiwal.edu.pk"
+                       pattern="[a-zA-Z0-9._]+@cuisahiwal\.edu\.pk"
+                       title="Example: fa22bcs001@cuisahiwal.edu.pk" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="17" max="35" required>
+
+                <label for="semester">Semester:</label>
+                <select id="semester" name="semester" required>
+                    <option value="">Select Semester</option>
+                    <option value="1">Semester 1</option>
+                    <option value="2">Semester 2</option>
+                    <option value="3">Semester 3</option>
+                    <option value="4">Semester 4</option>
+                </select>
+
+                <label for="reason">Why do you want to attend?</label>
+                <textarea id="reason" name="reason" rows="4" required></textarea>
+
+                <button type="submit">Submit Registration</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Department of Computer Science, COMSATS University, Sahiwal Campus</p>
+        <p>Email: symposium@cuisahiwal.edu.pk</p>
+        <p>&copy; 2026 Symposium. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
